@@ -1,0 +1,11 @@
+Package: C3W4Attempt2
+Type: Package
+Title: Course 3 Week 4 Project
+Version: 0.1.0
+Author: Andrew
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
