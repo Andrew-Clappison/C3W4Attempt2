@@ -1,0 +1,28 @@
+---
+title: "W4C3Attempt2 Package Vignette"
+author: "Andrew"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package is used to analyze traffic accidents in the united states based on data from the US National Highway Traffic Safety Administration.
+
+- It can create tables summarize yearly data. 
+- It can plot accidents on a map of the united states.
+
+## Examples
+
+fars_summarize_years(c(2013,2014,2015))
+
+fars_map_state(6,2015)
